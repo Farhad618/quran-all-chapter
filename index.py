@@ -15,7 +15,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 
-for j in range(1, 114):
+for j in range(1, 115):
 	service = Service(executable_path="./chromedriver")
 	browser = webdriver.Chrome(service=service)
 	
